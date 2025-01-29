@@ -7,9 +7,9 @@ workflows:
       node: latest
     scripts:
       - name: Install dependencies
-    script: npm install
+        script: npm install
       - name: Build project
-    script: npm run build
+        script: npm run build
     artifacts:
       - build/
 
